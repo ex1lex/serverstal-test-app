@@ -25,11 +25,13 @@ const TableBody: FC<Props> = (props: Props) => {
 							{item.isActive ? 'Active' : 'Inactive'}
 						</td>
 						<td className="table-body__td">
-							<Button
-								title={item.showChildren ? <>&#x2212;</> : <>&#x002B;</>}
-								onClick={() => props.handleToggleChildRows(item.id)}
-								disabled={!item.children.length}
-							/>
+							{!!item.children.length && (
+								<Button
+									title={item.showChildren ? <>&#x2212;</> : <>&#x002B;</>}
+									onClick={() => props.handleToggleChildRows(item.id)}
+									disabled={!item.children.length}
+								/>
+							)}
 						</td>
 					</tr>
 					{item.showChildren &&

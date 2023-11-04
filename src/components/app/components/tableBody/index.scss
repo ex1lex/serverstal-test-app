@@ -8,16 +8,8 @@
 	&__parent-tr_is-open {
 		& + .table-body__child-tr {
 			display: table-row;
+			color: gray;
 		}
-
-		// & .table-body__btn {
-		// 	background-color: #007bff;
-		// 	color: #fff;
-
-		// 	&:hover {
-		// 		background-color: #0056b3;
-		// 	}
-		// }
 	}
 
 	&__child-tr {
