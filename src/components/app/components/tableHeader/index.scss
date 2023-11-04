@@ -1,0 +1,13 @@
+.table-header {
+	&__filter {
+		padding: 5px;
+		border: 1px solid #ccc;
+	}
+
+	&__th {
+		padding: 10px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+		background-color: #f2f2f2;
+	}
+}

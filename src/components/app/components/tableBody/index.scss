@@ -1,0 +1,26 @@
+.table-body {
+	&__td {
+		padding: 10px;
+		text-align: left;
+		border-bottom: 1px solid #ddd;
+	}
+
+	&__parent-tr_is-open {
+		& + .table-body__child-tr {
+			display: table-row;
+		}
+
+		// & .table-body__btn {
+		// 	background-color: #007bff;
+		// 	color: #fff;
+
+		// 	&:hover {
+		// 		background-color: #0056b3;
+		// 	}
+		// }
+	}
+
+	&__child-tr {
+		display: none;
+	}
+}
