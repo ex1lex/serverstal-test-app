@@ -1,5 +1,5 @@
 import React, { useState, useMemo, FC } from 'react';
-import { TEST_DATA } from './test-data';
+import TEST_DATA from './test-data';
 import { IData, IColumns, Direction, Order } from './types';
 import { sortArrayByField } from '../../utils';
 import TableHeader from './components/tableHeader';
@@ -68,7 +68,8 @@ const App: FC = () => {
 					item.isActive.toString() === newFilter.isActive)
 			);
 		});
-		setData(filteredData);
+		const sortedData = sortArrayByField<IData>(filteredData, order);
+		setData(sortedData);
 	};
 
 	const handleToggleChildRows = (parentId: string) => {
