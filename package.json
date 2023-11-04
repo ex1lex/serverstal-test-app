@@ -2,6 +2,7 @@
   "name": "severstal-test-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ex1lex.github.io/severstal-test-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -22,7 +23,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --fix --max-warnings=0",
-    "lint-fix": "eslint --fix"
+    "lint-fix": "eslint --fix",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +50,7 @@
     "@typescript-eslint/parser": "^6.9.1",
     "eslint": "^8.52.0",
     "eslint-plugin-react": "^7.33.2",
+    "gh-pages": "^6.0.0",
     "node-sass": "^7.0.3"
   }
 }
