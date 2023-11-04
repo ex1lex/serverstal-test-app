@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/severstal-test-app/static/css/main.f6af4744.css",
-    "main.js": "/severstal-test-app/static/js/main.080a6055.js",
+    "main.css": "/severstal-test-app/static/css/main.a631d414.css",
+    "main.js": "/severstal-test-app/static/js/main.76c047ad.js",
     "static/js/787.0bce8a5a.chunk.js": "/severstal-test-app/static/js/787.0bce8a5a.chunk.js",
     "index.html": "/severstal-test-app/index.html",
-    "main.f6af4744.css.map": "/severstal-test-app/static/css/main.f6af4744.css.map",
-    "main.080a6055.js.map": "/severstal-test-app/static/js/main.080a6055.js.map",
+    "main.a631d414.css.map": "/severstal-test-app/static/css/main.a631d414.css.map",
+    "main.76c047ad.js.map": "/severstal-test-app/static/js/main.76c047ad.js.map",
     "787.0bce8a5a.chunk.js.map": "/severstal-test-app/static/js/787.0bce8a5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6af4744.css",
-    "static/js/main.080a6055.js"
+    "static/css/main.a631d414.css",
+    "static/js/main.76c047ad.js"
   ]
 }
